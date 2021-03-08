@@ -1,0 +1,5 @@
+#alias to go to Document directory
+alias cdd="cd ~/Documents"
+
+#alias to go to "sasaki_labo"
+alias cds="cd ~/Documents/sasaki_labo"
