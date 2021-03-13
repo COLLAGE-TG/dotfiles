@@ -13,8 +13,10 @@ elif has "curl" || has "wget"; then
 	#download with curl or wget and pass to tar
 	if has "curl"; then
 		curl -L "$tarball"
-	elif has "wget" then
+		
+	elif has "wget"; then
 		wget -0 - "$tarball"
+		
 	fi | tar zxv
 
 	#unziped the folder, place at DOTPATH
